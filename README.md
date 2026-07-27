@@ -31,7 +31,7 @@ Missing values were present across nearly every column (~2-10% per column, with 
    source venv/bin/activate    # Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
-4. Open `preprocessing.ipynb` in Jupyter or VS Code. It:
+4. Open `productivity.ipynb` in Jupyter or VS Code. It:
    - Loads `student_phone_addiction_affects_on_productivity(in).csv` and checks for missing/NaN values
    - Encodes `addiction_level` (Low = 0, Medium = 1, High = 2) after filling missing categorical entries with the mode
    - Fills missing numeric values using the median (chosen after checking skew per column, since several features like `focus_score` and `notifications_per_day` are notably skewed)
